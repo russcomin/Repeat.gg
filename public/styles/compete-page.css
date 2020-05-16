@@ -235,7 +235,7 @@
 
 .top-header {
 	width: 100%;
-	height: 107px;
+	height: 100px;
 	padding: 32px;
 	box-sizing: border-box;
 }
@@ -315,7 +315,7 @@
 
 .bottom-header {
 	width: 100%;
-	height: 59px;
+	height: 66px;
 	padding: 0px 0px 19px 32px;
 	box-sizing: border-box;
     white-space: nowrap;
@@ -323,11 +323,20 @@
     overflow-x: scroll;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-    overflow: hidden;
 }
 
+.bottom-header::-webkit-scrollbar {
+  height: 5px; 
+  background: #2C2A96;
+}
+
+.bottom-header::-webkit-scrollbar-thumb {
+  background: #6865DF;
+}
+
+
 .info-tile {
-	width: 500px;
+	width: auto;
 	height: 40px;
 	background: #4845AE;
 	border: 1px solid #635FE8;
@@ -335,4 +344,73 @@
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.11);
 	border-radius: 23px;
 	display: inline-block;
+	padding: 9px 15px 9px 15px;
+}
+
+.main-tile {
+	background: #635FE8;
+}
+
+.info-tile > .info-img,.info-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.info-tile > .info-text {
+	margin-top: -2px;
+	margin-left: 5px;
+}
+
+.data-text {
+	margin-left: 21px;
+}
+
+.margin-tile {
+	margin-left: 15px;
+}
+
+.data-text > .coins-icon {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 8px;
+}
+
+/*
+
+	Advertisments	
+
+*/
+
+.graphics-wrapper {
+	width: 100%;
+	height: 165px;
+	box-sizing: border-box;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 20px;
+}
+
+.graphics-wrapper::-webkit-scrollbar {
+  height: 4px; 
+  background: #EBEBEB;
+  border-radius: 4px;
+}
+
+.graphics-wrapper::-webkit-scrollbar-thumb {
+  background: #D4D4D4;
+  border-radius: 4px;
+}
+
+.graphics-wrapper > img {
+	cursor: pointer;
+	margin-left: 18px;
+}
+
+.graphics-wrapper > img:nth-child(1) {
+	margin-left: 0px;
 }
