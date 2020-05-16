@@ -42,4 +42,5 @@ input:focus {outline: none;}
 
 body {
     background: #FBFBFB;
+    overflow-x: none;
 }
