@@ -56,6 +56,10 @@ FONT Weights
 	font-family: Mon-Medium;
 }
 
+.bold-font {
+	font-family: Mon-Bold;
+}
+
 .extra-bold {
 	font-family: Teko-Bold;
 }
@@ -94,5 +98,13 @@ Platform Colors
 }
 
 .main-green {
+	color: #01D387;
+}
+
+.community-color {
+	color: #F1841F;
+}
+
+.sponsored-color {
 	color: #01D387;
 }
