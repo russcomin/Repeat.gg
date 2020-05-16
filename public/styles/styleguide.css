@@ -1,0 +1,94 @@
+/*
+
+FONT COLORS
+
+*/
+
+.light-grey {
+	color: #A1A1A1;
+}
+
+.medium-grey {
+	color: #5C5C5C;
+}
+
+.dark-grey {
+	color: #2E2E2E;
+}
+
+/*
+
+FONT SIZES
+
+*/
+
+.big-text {
+	font-size: 16px;
+}
+
+.medium-text {
+	font-size: 14px;
+}
+
+.small-text {
+	font-size: 12px;
+}
+
+.header-text {
+	font-size: 44px;
+}
+
+/*
+
+FONT Weights
+
+*/
+
+.semi-bold-font {
+	font-family: Mon-SemiBold;
+}
+
+.medium-font {
+	font-family: Mon-Medium;
+}
+
+.extra-bold {
+	font-family: Teko-Bold;
+}
+
+
+/*
+
+	Creating Font Styles:
+
+	- Each text in html/view should have all 3 properties:
+		1. Font Color
+		2. Font Size
+		3. Font Weight
+
+	Example 
+	<p class="text big-text light-grey medium"
+
+*/
+
+/*
+
+Platform Colors
+
+*/
+
+.main-blue {
+	color: #00ACF6;
+}
+
+.dota {
+	color: #FA6848;
+}
+
+.fortnite {
+	color: #605BCD;
+}
+
+.main-green {
+	color: #01D387;
+}
